@@ -475,7 +475,7 @@ main {
 
 .about-img-frame {
   width: 100%;
-  aspect-ratio: 1;
+  /* aspect-ratio: 1; */
   max-width: 340px;
   border-radius: var(--radius-blob);
   background: linear-gradient(135deg, var(--peach-light) 0%, var(--teal-light) 100%);

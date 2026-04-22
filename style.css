@@ -96,9 +96,13 @@ header {
   text-decoration: none;
 }
 
+.logo-img-wrap {
+  max-width: calc(100vw - 2.5rem) !important;
+}
+
 .logo-img-wrap img {
   width: 100%; height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .logo-img-placeholder {
   font-size: 1.4rem;

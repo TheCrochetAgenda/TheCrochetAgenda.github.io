@@ -572,6 +572,16 @@ footer a:hover {
     margin-bottom: 2.5rem;
   }
 
+  .carousel-btn {
+    width: 32px; height: 32px;
+  }
+  .carousel-btn.prev {
+    left: 5px;
+  }
+  .carousel-btn.next {
+    right: 5px;
+  }
+
   #about {
     grid-template-columns: 1fr;
     gap: 2rem;

@@ -206,15 +206,11 @@
     }
     pauseBtn.addEventListener('click', togglePaused);
 
+    // pauses on hover
     carouselEl.addEventListener('mouseenter', () => { if (!isPaused) bsCarousel.pause(); });
     carouselEl.addEventListener('mouseleave', () => { if (!isPaused) bsCarousel.cycle(); });
-
-    // ── Pause Prev/Next interaction ──────────────────────────────────
-    const prevBtn    = document.getElementById('prev-btn');
-    const nextBtn    = document.getElementById('next-btn');
-
-    prevBtn.addEventListener('click', () => { if (isPaused) togglePaused() });
-    nextBtn.addEventListener('click', () => { if (isPaused) togglePaused() });
+    // unpauses when clicking next, previous, or a slide indicator dot
+    carouselEl.addEventListener('slide.bs.carousel', () => { if (isPaused) togglePaused(); });
   </script>
 
 </body>

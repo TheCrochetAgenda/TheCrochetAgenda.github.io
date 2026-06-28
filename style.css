@@ -402,6 +402,17 @@ main {
   font-style: italic;
 }
 
+.email-separator {
+  color: var(--peach);
+  background-color: var(--peach);
+  border-width: 0;
+  height: 1.5px;
+}
+
+.email > a {
+  color: var(--teal);
+}
+
 .events-more-link {
   display: inline-block;
   margin-top: 1.25rem;

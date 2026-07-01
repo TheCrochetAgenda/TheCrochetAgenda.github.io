@@ -37,9 +37,7 @@ body {
   overflow-x: hidden;
 }
 
-a {
-  color: var(--teal) !important;
-}
+a { color: var(--teal) !important; }
 
 /* ─── Decorative Background Blobs ───────────────────────────────── */
 body::before {

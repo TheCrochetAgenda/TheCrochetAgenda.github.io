@@ -373,7 +373,7 @@ main {
   color: var(--warm-white);
   border-radius: 10px;
   text-align: center;
-  padding: 0.35rem 0.25rem;
+  padding: 0.25rem 0.25rem 0.35rem 0.25rem;
   line-height: 1.1;
 }
 .event-date-badge .day {
@@ -381,6 +381,7 @@ main {
   font-family: var(--font-display);
   font-size: 1.3rem;
   font-weight: 700;
+  margin-bottom: .25rem;
 }
 .event-date-badge .month {
   display: block;
